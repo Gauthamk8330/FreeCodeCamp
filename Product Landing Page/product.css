@@ -299,3 +299,8 @@ footer > span {
   font-size: 0.9em;
   color: #444;
 }
+
+h1{
+  animation-direction: alternate;
+}
+

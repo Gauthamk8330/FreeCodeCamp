@@ -27,8 +27,7 @@ a{
     text-align:center;
     justify-content:center;
     align-items:center;
-    display:flex;
-    flex-direction:column
+    /* display:flex; */
 }
 
 #Work{
@@ -112,3 +111,22 @@ h3{
     .ft{
         text-align: center;
     }
+
+   
+    .he {
+        
+        animation: linear infinite;
+        animation-name: run;
+        animation-duration: 5s;
+      }
+      @keyframes run{
+        0% {
+          left: 0;
+        }
+        50% {
+          left: 100%;
+        }
+        100% {
+          left: 0;    
+        }
+      }
