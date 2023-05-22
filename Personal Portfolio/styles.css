@@ -22,7 +22,6 @@ a{
 
 #About{
     background : linear-gradient(to top, #09203f 0%, #537895 100%);
-    color: Ghostwhite;
     height:100vh;
     text-align:center;
     justify-content:center;
@@ -70,7 +69,7 @@ h3{
     justify-content:center;
     align-items:center;
     display:flex;
-    flex-direction:column
+    flex-direction:column;
 }
 
 
@@ -112,21 +111,24 @@ h3{
         text-align: center;
     }
 
-   
-    .he {
-        
-        animation: linear infinite;
-        animation-name: run;
-        animation-duration: 5s;
-      }
-      @keyframes run{
-        0% {
-          left: 0;
-        }
-        50% {
-          left: 100%;
-        }
-        100% {
-          left: 0;    
-        }
-      }
+
+
+   #animation{
+        color : red;
+        animation-name: example ;
+        animation-duration: 1s;
+        animation-timing-function:linear;
+        /* animation-iteration-count: infinite; */
+       
+   }
+
+   @keyframes example{
+    from{
+       transform: translateX(40vw);
+       color: yellow;
+    }
+    to{
+        transform: translateX(-2px);
+        color: red;
+    }
+   }
