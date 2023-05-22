@@ -1,0 +1,40 @@
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin: 0 auto;
+}
+
+/* body{
+    background:  linear-gradient(178.6deg, rgb(232, 245, 253) 3.3%, rgb(252, 253, 255) 109.6%);
+} */
+
+
+th{
+    background:  white;
+}
+
+tr:nth-child(odd){
+    /* color : white; */
+    background-color:red;
+}
+
+tr:nth-child(even){
+    /* color : white; */
+    background-color: green;
+}
+
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse ;
+    padding: 10px 30px;
+}
+
+/* body{
+   
+    border: 1px solid black;
+} */
+
+tr:nth-child(4){
+    background: pink;
+}

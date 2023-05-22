@@ -1,0 +1,28 @@
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+.background{
+    border-radius: 10%;
+    border-left: 200px;
+    font-size:  15px;
+    
+    
+ 
+}
+
+.img{
+    height:auto;
+    width:30%;
+    margin-top : 15px;
+    border: 5px solid black;
+    
+}
+
+.one{
+justify-content: center;
+    display: flex;
+}
+
