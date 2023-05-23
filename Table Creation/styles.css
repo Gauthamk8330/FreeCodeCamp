@@ -27,7 +27,7 @@ tr:nth-child(even){
 table, th, td{
     border: 3px solid black;
     border-collapse: collapse ;
-    padding: 10px 30px;
+  padding: 10px 30px;
 }
 
 /* body{
